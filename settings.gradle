@@ -1,0 +1,9 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    mavenCentral()
+  }
+}
+
+rootProject.name = 'testgen'
+include 'testgen-core', 'testgen-ui'
